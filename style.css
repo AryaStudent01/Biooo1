@@ -1,0 +1,90 @@
+/* Reset and base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Biography container */
+.biography {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+/* Header styles */
+.biography h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Subtitle and metadata */
+.biography .subtitle {
+    font-style: italic;
+    color: #7f8c8d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Sections */
+.biography section {
+    margin-bottom: 25px;
+}
+
+.biography section h2 {
+    color: #2980b9;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Paragraph styles */
+.biography p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Image styles */
+.biography .profile-image {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Timeline or list styles */
+.biography .timeline,
+.biography .achievements {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.biography .timeline li,
+.biography .achievements li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .biography {
+        padding: 15px;
+    }
+}
